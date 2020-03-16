@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Person from './Person/Person';
+import Car from './Car/Car';
 
 class App extends Component {
   state = {
@@ -25,7 +25,7 @@ class App extends Component {
         <h1>Hi, I'm a React App</h1>
         <p>This is really working!</p>
 
-        <Person 
+        <Car
           name={this.state.cars[0].name}
           click={this.switchNameHandler}
           />
